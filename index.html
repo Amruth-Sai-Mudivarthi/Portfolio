@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amruth Sai Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">AM</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Amruth Sai Mudivarthi</span>
+                </h1>
+                <p class="hero-subtitle">
+                    A passionate <span class="typing-text" id="typing-text"></span>
+                </p>
+                <p class="hero-description">
+                    Building modern web solutions with cutting-edge technologies
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-picture">
+                    <img src="assets/images/profile.jpg" alt="Amruth Sai Mudivarthi">
+                    <div class="profile-ring"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        I’m currently pursuing my B.Tech in Computer Science and Engineering at Kalasalingam Academy of Research and Education, where I’ve gained a strong foundation in programming, data structures, web development, and machine learning. Over the past few years, I’ve worked on academic and personal projects that helped me develop both technical skills and a problem-solving mindset.
+                    </p>
+                    <p class="about-paragraph">
+                        I’ve led Web development team at SCRS-KARE and interned as a full-stack developer at Capnis Info Tech. I enjoy solving real-world problems through code and continuous learning.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Clean Code Advocate</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Performance Optimizer</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Collaborator</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-orbit">
+                        <div class="orbit-center">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="orbit-item orbit-1">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="orbit-item orbit-2">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="orbit-item orbit-3">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="orbit-item orbit-4">
+                            <i class="fab fa-js"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/health.png" alt="Health Companion">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                <a href="https://github.com/Amruth-Sai-Mudivarthi/Health-Companion.git" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Health Companian- Symptom Checker and Fitness Tracker</h3>
+                        <p class="project-description">Uses user-provided symptoms and daily habits to predict potential health conditions and provide personalized wellness recommendations. It also includes an engaging quiz system to educate users on health topics and promote healthier habits.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/sleeppattern.webp" alt="Sleep Pattern Analyzer">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                <a href="https://github.com/Amruth-Sai-Mudivarthi/AI_Powered_Sleep_Pattern_Analyzer.git" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">AI-Powered Sleep Pattern Analyzer</h3>
+                        <p class="project-description">Analyzes user sleep patterns to predict sleep duration and assess overall sleep quality. It delivers personalized recommendations and tracks progress through an interactive interface, while also providing users with educational content on healthy sleep habits.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/riceleaf.jpeg" alt="Rice Leaf Disease Diagnosis">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                <a href="https://github.com/Amruth-Sai-Mudivarthi/Rice-Leaf-Disease-Diagnosis-using-Custom-CNN.git" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Rice Leaf Disease Diagnosis Using Custom CNN</h3>
+                        <p class="project-description">This web application helps farmers and agricultural workers diagnose rice leaf diseases by analyzing an uploaded image. It provides real-time predictions of the disease type and offers specific remedies and treatment options for the identified condition.</p>
+
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/pdfsummarizer.png" alt="Document Summarizer">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                <a href="https://github.com/Amruth-Sai-Mudivarthi/Abstractive-Long-Document-Summarizer-with-Chatbot.git" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Abstractive Long-Document Summarizer with Chatbot</h3>
+                        <p class="project-description">Tool that generates concise, human-like summaries from long documents in various formats like PDF, DOCX, and TXT. It includes a built-in chatbot that allows users to ask specific questions about the document's content, along with features for sentiment analysis and key phrase extraction.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">My technical expertise</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Spring Boot</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Laravel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Database & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">PostgreSQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Postman</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="resume-content">
+                <div class="resume-text">
+                    <h2>Ready to see my full experience?</h2>
+                    <p>Download my resume to get a comprehensive overview of my skills, experience, and achievements.</p>
+                    <a href="#" class="btn btn-primary" id="download-resume">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+                <div class="resume-visual">
+                    <div class="resume-preview">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>Resume.pdf</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's discuss your next project</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:amruthsai2004@gmail.com" class="contact-value">amruthsai2004@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+918522932484" class="contact-value">+91 8522932484</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Nellore, Andhra Pradesh</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/amruth-sai-mudivarthi-62b742268/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Amruth-Sai-Mudivarthi" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/amruth_sai_" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:amruthsai2004@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Amruth Sai Mudivarthi. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

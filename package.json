@@ -1,0 +1,14 @@
+{
+  "name": "developer-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o",
+    "build": "echo 'Build complete - static files ready for deployment'",
+    "preview": "npx http-server . -p 4173 -o"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
