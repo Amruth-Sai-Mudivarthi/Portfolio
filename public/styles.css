@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,13 +23,12 @@ body {
     padding: 0 20px;
 }
 
-/* Typography */
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 1.2;
 }
 
-/* Buttons */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -67,7 +66,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-2px);
 }
 
-/* Navigation */
 .navbar {
     position: fixed;
     top: 0;
@@ -147,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
 }
 
-/* Hero Section */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -349,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
     50% { transform: translateY(10px); }
 }
 
-/* Animations */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -361,7 +359,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* Section Styles */
 .section-header {
     text-align: center;
     margin-bottom: 60px;
@@ -381,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #999999;
 }
 
-/* About Section */
+
 .about {
     padding: 100px 0;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
@@ -491,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
     100% { transform: rotate(360deg) translateX(120px) rotate(-360deg); }
 }
 
-/* Projects Section */
+
 .projects {
     padding: 100px 0;
     background: #0a0a0a;
@@ -606,7 +603,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid rgba(0, 245, 255, 0.3);
 }
 
-/* Skills Section */
+
 .skills {
     padding: 100px 0;
     background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0a 100%);
@@ -668,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
 }
 
-/* Resume Section */
+
 .resume {
     padding: 100px 0;
     background: #0a0a0a;
@@ -728,7 +725,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
-/* Contact Section */
+
 .contact {
     padding: 100px 0;
     background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0a 100%);
@@ -819,7 +816,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-5px);
 }
 
-/* Contact Form */
+
 .contact-form {
     background: rgba(255, 255, 255, 0.05);
     padding: 40px;
@@ -861,7 +858,7 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 120px;
 }
 
-/* Footer */
+
 .footer {
     background: #0a0a0a;
     padding: 40px 0;
@@ -893,7 +890,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #00f5ff;
 }
 
-/* Scroll to Top Button */
+
 .scroll-top {
     position: fixed;
     bottom: 30px;
@@ -922,7 +919,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 10px 30px rgba(0, 245, 255, 0.3);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .hero-content {
         grid-template-columns: 1fr;
@@ -1117,7 +1114,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -1135,7 +1131,7 @@ h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(135deg, #0080ff, #00f5ff);
 }
 
-/* Loading Animation */
+
 .loading {
     opacity: 0;
     animation: fadeIn 0.6s ease-out forwards;
@@ -1147,7 +1143,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* Glowing Effects */
+
 .glow {
     animation: glow 2s ease-in-out infinite alternate;
 }
