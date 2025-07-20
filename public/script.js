@@ -1,4 +1,4 @@
-// Typing animation
+
 const typingText = document.getElementById('typing-text');
 const roles = ['Full Stack Developer', 'Problem Solver', 'Tech Enthusiast', 'Creative Thinker'];
 let currentRole = 0;
@@ -32,10 +32,9 @@ function typeRole() {
     }
 }
 
-// Start typing animation
 typeRole();
 
-// Navbar scroll effect
+
 const navbar = document.getElementById('navbar');
 const navToggle = document.getElementById('nav-toggle');
 const navMenu = document.getElementById('nav-menu');
@@ -49,13 +48,13 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Mobile menu toggle
+
 navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
     navToggle.classList.toggle('active');
 });
 
-// Close mobile menu when clicking on a link
+
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         navMenu.classList.remove('active');
@@ -63,7 +62,7 @@ navLinks.forEach(link => {
     });
 });
 
-// Smooth scrolling for navigation links
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -77,7 +76,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Active navigation link highlighting
+
 const sections = document.querySelectorAll('section');
 const navLinksArray = Array.from(navLinks);
 
@@ -101,7 +100,7 @@ function updateActiveLink() {
 
 window.addEventListener('scroll', updateActiveLink);
 
-// Scroll to top button
+
 const scrollTopBtn = document.getElementById('scroll-top');
 
 window.addEventListener('scroll', () => {
@@ -119,7 +118,6 @@ scrollTopBtn.addEventListener('click', () => {
     });
 });
 
-// Scroll animations
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
@@ -133,12 +131,12 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe all sections for scroll animations
+
 document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
 });
 
-// Project card hover effects
+
 const projectCards = document.querySelectorAll('.project-card');
 projectCards.forEach(card => {
     card.addEventListener('mouseenter', () => {
@@ -150,7 +148,7 @@ projectCards.forEach(card => {
     });
 });
 
-// Contact form handling
+
 const contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -160,13 +158,12 @@ contactForm.addEventListener('submit', (e) => {
     const email = formData.get('email');
     const message = formData.get('message');
     
-    // Here you would typically send the form data to your server
-    // For now, we'll just show a success message
+
     alert('Thank you for your message! I\'ll get back to you soon.');
     contactForm.reset();
 });
 
-// Resume download
+
 const downloadBtn = document.getElementById('download-resume');
 downloadBtn.addEventListener('click', (e) => {
     e.preventDefault();
@@ -177,7 +174,7 @@ downloadBtn.addEventListener('click', (e) => {
     link.click();
 });
 
-// Particles effect
+
 function createParticles() {
     const particlesContainer = document.querySelector('.particles');
     if (!particlesContainer) return;
@@ -200,7 +197,7 @@ function createParticles() {
     }
 }
 
-// Add particle float animation
+
 const style = document.createElement('style');
 style.textContent = `
     @keyframes particleFloat {
@@ -216,10 +213,10 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Initialize particles
+
 createParticles();
 
-// Add hover effects to buttons
+
 const buttons = document.querySelectorAll('.btn');
 buttons.forEach(button => {
     button.addEventListener('mouseenter', () => {
@@ -231,19 +228,19 @@ buttons.forEach(button => {
     });
 });
 
-// Glowing effect for profile picture
+
 const profilePicture = document.querySelector('.profile-picture');
 if (profilePicture) {
     profilePicture.addEventListener('mouseenter', () => {
-        // Hover effect is now handled by CSS
+     
     });
     
     profilePicture.addEventListener('mouseleave', () => {
-        // Hover effect is now handled by CSS
+       
     });
 }
 
-// Add loading animation to sections
+
 document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('section');
     sections.forEach((section, index) => {
@@ -258,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Parallax effect for hero section
+
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const heroBackground = document.querySelector('.hero-background');
@@ -267,14 +264,14 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Dynamic favicon
+
 function updateFavicon() {
     const canvas = document.createElement('canvas');
     canvas.width = 32;
     canvas.height = 32;
     const ctx = canvas.getContext('2d');
     
-    // Draw favicon
+
     ctx.fillStyle = '#00f5ff';
     ctx.fillRect(0, 0, 32, 32);
     ctx.fillStyle = '#ffffff';
@@ -282,7 +279,7 @@ function updateFavicon() {
     ctx.textAlign = 'center';
     ctx.fillText('A', 16, 22);
     
-    // Create favicon link
+
     const link = document.createElement('link');
     link.rel = 'icon';
     link.href = canvas.toDataURL();
@@ -291,7 +288,7 @@ function updateFavicon() {
 
 updateFavicon();
 
-// Console message for developers
+
 console.log(`
     ╔══════════════════════════════════════════════════════════════╗
     ║                                                              ║
